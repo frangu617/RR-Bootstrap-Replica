@@ -1,4 +1,4 @@
-
+import Form from 'react-bootstrap/Form';
 
 function Banner() {
     const bannerStyle = {
@@ -24,6 +24,10 @@ function Banner() {
             <div style={textStyle}>
                 <h1>Order groceries for delivery or pickup today</h1>
                 <p>Whatever you want from local stores, brought right to your door</p>
+                <Form>
+                    <input type="text" placeholder="Enter your address" />
+                    <button type="submit">Go</button>
+                </Form>
             </div>
             <div className="d-flex justify-content-end">
                 <img src="https://www.instacart.com/image-server/x428/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg" style={imageStyle} />
