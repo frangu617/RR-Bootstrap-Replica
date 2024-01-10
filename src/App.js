@@ -1,9 +1,13 @@
 import './App.css';
+import TopBar from './TopBar';
+import Banner from './Banner';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Banner/>
     </div>
   );
 }
