@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, Button, Row, Col, Image } from 'react-bootstrap';
 import Stores from './Stores';
 
+//some of this code was with help from chatgpt, mostly for sizing where rem is used, the rest was docs and trial and error
+
 const StoreCard = ({ store }) => (
     <div className="d-flex justify-content-center align-items-center">
         <Card style={{ width: '35rem', minHeight: '12vh', borderRadius: '10px', }} className="mb shadow" >
